@@ -15,3 +15,14 @@ The analyst then determined the correlation between the median popularity, and t
 __Conclusion:__ 
 There is a weak positive correlation between the popularity of a tempo, and the popularity of a song. 
 Songs based upon popular tempos are marginally more popular on average compared to songs based upon less popular tempos. 
+
+Question 2:
+Is there a correlation between song length and the popularity of a song?
+
+Analysis:
+The is analysis used the same data set as above. 
+
+The population mean, median and mode is roughly around 3.5 minutes. When I ran the r value of the data, there was  an r-value of .018.  The graph has been truncated at 600 secs/10 minutes because there are few songs that are longer and none of them have very significant popularity numbers. 
+
+__Conclusion__
+There is not correltaion between song length and and populatiry. The r-value clear shows that other factors are responsible for popularity of a song. Song length is distributed around 3.5 minutes is due to the technology of recording media. Before the advent of digital media, radio stations used 78 rpm records and then 45 rpm records which had play times of between 3 and 4 minutes. If a song was longer than the play length of the media, then it would not be played on the radio and consequently nobody would be exposed to the song. Even with the advent of digital media, average song lengths have maxed out at under 5 minutes in 1992 and has dropped to around 4:50 minutes currently. (source on current song length: https://www.vox.com/2014/8/18/6003271/why-are-songs-3-minutes-long )
