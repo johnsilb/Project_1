@@ -25,17 +25,17 @@ The is analysis used the same data set as above.
 The population mean, median and mode is roughly around 3.5 minutes. When I ran the r value of the data, there was  an r-value of .018.  The graph has been truncated at 600 secs/10 minutes because there are few songs that are longer and none of them have very significant popularity numbers. 
 
 __Conclusion__
-There is not correltaion between song length and and populatiry. The r-value clear shows that other factors are responsible for popularity of a song. Song length is distributed around 3.5 minutes is due to the technology of recording media. Before the advent of digital media, radio stations used 78 rpm records and then 45 rpm records which had play times of between 3 and 4 minutes. If a song was longer than the play length of the media, then it would not be played on the radio and consequently nobody would be exposed to the song. Even with the advent of digital media, average song lengths have maxed out at under 5 minutes in 1992 and has dropped to around 4:50 minutes currently. (source on current song length: https://www.vox.com/2014/8/18/6003271/why-are-songs-3-minutes-long )
+There is not correltaion between song length and and populatiry. The r-value clear shows that other factors are responsible for popularity of a song. Song length is distributed around 3.5 minutes is due to the technology of recording media. Before the advent of digital media, radio stations used 78 rpm 
+records and then 45 rpm records which had play times of between 3 and 4 minutes. If a song was longer than the play length of the media, then it would not be played on the radio and consequently nobody would be exposed to the song. Even with the advent of digital media, average song lengths have maxed out at under 5 minutes in 1992 and has dropped to around 4:50 minutes currently. (source on current song length: https://www.vox.com/2014/8/18/6003271/why-are-songs-3-minutes-long )
 
+Question 3: Is there a correlation b/w popularity and time since song release?
 
-Question 3:
-How do emotions detected in English speaking songs in the top 200 correlate with popularity of a song and genre?
+**Conclusion**
+Yes, but not linear - the most popular songs are those which were recently released, as expected. However, the dataset does not have enough information to determine whether songs on Spotify overall have been growing in popularity. The same dataset over an expanded range of time would be useful for further analysis, as would total number of streams. (Because the "popularity" score only accounts for a song's position on the charts and the duration of its stay, there is no way of knowing whether more listens would be needed to maintain a chart position at different points of time.)
 
-Analysis:
-The emotions detected in the dataset were: anger, anticipation, disgust, fear, joy, sadness, surprise and trust. The data for each title was grouped for all 35 countries + global. The popularity was summed in order to take into consideration multiple entries, whereas the rates for each emotion were averaged. 
+Question 4: What is the relationship between genre and popularity?
 
-__Conclusion__
-There was no recognizable trend of preponderant emotions in most popular songs, the measured emotions were dispersed throughout the data sample.
-The most detected emotion in the sample was joy, followed by trust, anticipation, fear, sadness, anger, surprise and, lastly, disgust was the least detected emotion. Overall, positive emotions were predominant over negative emotions.
-There is significant difference in how emotions are expressed throughout popular genres. The distribution of the emotions can be considered counter intuitive, showing modern rock, for instance, as noticeably less emotional than edm (electronic dance music).
+**Conclusion:**
+We hypothesized that pop, rap, rock, and possibly R&B would be the most popular genres. While these genres do tend to contain the most popular songs, such songs are outliers. The most popular genres on aggregate are Latin and Reggae. The songs in the dataset were broken into 8 main genres, plus an additional category for "other" genres. Latin and Reggae were by far the most popular, with relatively "unpopular" songs in these genres being more popular than the "unpopular" songs of other genres. (All analyzed songs were in the top 200 at some point and therefore are objectively popular.) The "Latin" category does not include songs of other genres - for example a "Latin Pop" or "Latin Rap" song is classified as "Pop" or "Rap", respectively.
 
+The one-way ANOVA statistic between these groups is 17.65, with a negligible p-value. This shows a significant difference in the popularity of various genres that could not have happened randomly.
