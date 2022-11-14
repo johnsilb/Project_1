@@ -1,10 +1,7 @@
 Team 5 Readme.md
 
-
+Question 1: 
 Is there a correlation between BPM and the popularity of a song?
-
-Critical Terminology: 
-BPM = Beats Per Minute. 
 
 Analysis: 
 The dataset analyzed included 170,610 songs, of which 163,528 (95.8%) were suitable for analysis and had data for all relevant fields. One song had a reported 0 beats per minute (BPM), which the analyst opined to be a data error. That song was removed from the analysis. 
