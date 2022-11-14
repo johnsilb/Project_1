@@ -1,10 +1,7 @@
 Team 5 Readme.md
 
 
-
-
-
-**Is there a correlation between BPM and the popularity of a song? **
+Is there a correlation between BPM and the popularity of a song?
 
 Critical Terminology: 
 BPM = Beats Per Minute. 
