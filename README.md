@@ -4,7 +4,7 @@ Team 5 Readme.md
 
 
 
-Is there a correlation between BPM and the popularity of a song? 
+**Is there a correlation between BPM and the popularity of a song? **
 
 Critical Terminology: 
 BPM = Beats Per Minute. 
@@ -18,6 +18,6 @@ The top 50% most popular BPMs were analyzed to avoid the analysis being signific
 
 The analyst then determined the correlation between the median popularity, and the number of songs for a given BPM. This resulted in a pearson r-value of 0.283; a weak positive correlation. The analyst used median popularity to avoid the data being swayed by a small number of hyper-popular songs. 
 
-Conclusion: 
+__Conclusion:__ 
 There is a weak positive correlation between the popularity of a tempo, and the popularity of a song. 
 Songs based upon popular tempos are marginally more popular on average compared to songs based upon less popular tempos. 
